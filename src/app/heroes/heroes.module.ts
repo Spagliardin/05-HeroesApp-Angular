@@ -11,6 +11,7 @@ import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HeroesTarjetaComponent } from './components/heroes-tarjeta/heroes-tarjeta.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
 import { FormsModule } from '@angular/forms';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 
 
@@ -23,6 +24,7 @@ import { FormsModule } from '@angular/forms';
     HeroeComponent,
     HeroesTarjetaComponent,
     ImagenPipe,
+    ConfirmComponent,
   ],
   imports: [
     CommonModule,
